@@ -69,3 +69,4 @@ D:\Proyects\Udemy\Angular .Net Core 5\Backend\back-end\back-end\bin\Debug\net5.0
 D:\Proyects\Udemy\Angular .Net Core 5\Backend\back-end\back-end\bin\Debug\net5.0\NetTopologySuite.dll
 D:\Proyects\Udemy\Angular .Net Core 5\Backend\back-end\back-end\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
 D:\Proyects\Udemy\Angular .Net Core 5\Backend\back-end\back-end\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+D:\Proyects\Udemy\Angular .Net Core 5\Backend\back-end\back-end\bin\Debug\net5.0\Newtonsoft.Json.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jfpHMkysyF6DVVcxU/72aXjnQh9CtF2Bw5txMZM0E0XC1M+KYvZf6P9YOjuatIsTZYpcjY9yqZKAC+ye2J7csg==",
+  "dgSpecHash": "NrVbrjglVgzC61+G3vKoVSqrWbe2Uf4zhuScA+hOliV+cryQsgT75Z8Ld+Mpuhb8bI2yZy1xuiKy8I9IW2/OXg==",
   "success": true,
   "projectFilePath": "D:\\Proyects\\Udemy\\Angular .Net Core 5\\Backend\\back-end\\back-end\\back-end.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nettopologysuite\\2.1.0\\nettopologysuite.2.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nettopologysuite.io.sqlserverbytes\\2.0.0\\nettopologysuite.io.sqlserverbytes.2.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
