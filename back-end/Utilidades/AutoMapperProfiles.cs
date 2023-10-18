@@ -27,7 +27,8 @@ namespace back_end.Utilidades
                 ForMember(x => x.PeliculasCines, opciones => opciones.MapFrom(MapearPeliculasCines)).
                 ForMember(x => x.PeliculasActores, opciones => opciones.MapFrom(MapearPeliculasActores));
             CreateMap<Pelicula, PeliculaDTO>().ForMember(x => x.Generos, options => options.MapFrom(MapearPeliculasGeneros)).
-                ForMember(x => x.Actores, options => options.MapFrom());
+                ForMember(x => x.Actores, options => options.MapFrom(MapearPeliculasActor)).
+                ForMember(x => x.Cines, options => options.MapFrom(MapearPeliculasCines));
         }
 
         private List<GeneroDTO> MapearPeliculasGeneros(Pelicula pelicula, PeliculaDTO peliculaDTO)
@@ -39,6 +40,27 @@ namespace back_end.Utilidades
                 foreach (var genero in pelicula.PeliculasGeneros)
                 {
                     resultado.Add(new GeneroDTO() { Id = genero.GeneroId, Nombre = genero.Genero.Nombre });
+                }
+            }
+
+            return resultado;
+        }
+
+        private List<CineDTO> MapearPeliculasCines(Pelicula pelicula, PeliculaDTO peliculaDTO)
+        {
+            var resultado = new List<CineDTO>();
+
+            if (pelicula.PeliculasActores != null)
+            {
+                foreach (var peliculasCines in pelicula.PeliculasCines)
+                {
+                    resultado.Add(new CineDTO()
+                    {
+                        Id = peliculasCines.CineId,
+                        Nombre = peliculasCines.Cine.Nombre,
+                        Latitud = peliculasCines.Cine.Ubicacion.Y,
+                        Longitud = peliculasCines.Cine.Ubicacion.X
+                    });
                 }
             }
 
